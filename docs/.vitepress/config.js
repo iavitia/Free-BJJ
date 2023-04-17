@@ -1,4 +1,10 @@
 import { defineConfig } from 'vitepress'
+import {
+  openGuard,
+  closedGuard,
+  kneeOnBelly,
+  fullMount,
+} from './paths/index.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -20,51 +26,11 @@ export default defineConfig({
           { text: 'Runtime API Examples', link: '/api-examples' },
         ],
       },
-      {
-        text: 'Full Mount',
-        collapsed: false,
-        items: [
-          {
-            text: 'Bottom',
-            collapsed: false,
-            link: 'full-mount/bottom/',
-            items: [
-              {
-                text: 'Escapes',
 
-                link: 'full-mount/bottom/escapes',
-              },
-              {
-                text: 'Submissions',
-
-                link: 'full-mount/bottom/submissions',
-              },
-            ],
-          },
-          {
-            text: 'Top',
-            collapsed: false,
-            link: 'full-mount/top/',
-            items: [
-              {
-                text: 'Retention',
-
-                link: 'full-mount/top/retention',
-              },
-              {
-                text: 'Submissions',
-
-                link: 'full-mount/top/submissions',
-              },
-              {
-                text: 'Transitions',
-
-                link: 'full-mount/top/transitions',
-              },
-            ],
-          },
-        ],
-      },
+      openGuard,
+      closedGuard,
+      kneeOnBelly,
+      fullMount,
     ],
 
     socialLinks: [
