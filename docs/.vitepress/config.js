@@ -27,39 +27,39 @@ export default defineConfig({
           {
             text: 'Bottom',
             collapsed: false,
-            link: '5-full-mount/bottom/',
+            link: 'full-mount/bottom/',
             items: [
               {
                 text: 'Escapes',
 
-                link: '5-full-mount/bottom/escapes',
+                link: 'full-mount/bottom/escapes',
               },
               {
                 text: 'Submissions',
 
-                link: '5-full-mount/bottom/submissions',
+                link: 'full-mount/bottom/submissions',
               },
             ],
           },
           {
             text: 'Top',
             collapsed: false,
-            link: '5-full-mount/top/',
+            link: 'full-mount/top/',
             items: [
               {
                 text: 'Retention',
 
-                link: '5-full-mount/top/retention',
+                link: 'full-mount/top/retention',
               },
               {
                 text: 'Submissions',
 
-                link: '5-full-mount/top/submissions',
+                link: 'full-mount/top/submissions',
               },
               {
                 text: 'Transitions',
 
-                link: '5-full-mount/top/transitions',
+                link: 'full-mount/top/transitions',
               },
             ],
           },
