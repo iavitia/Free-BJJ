@@ -1,4 +1,7 @@
 export { default as openGuard } from './openGuard.js'
 export { default as closedGuard } from './closedGuard.js'
 export { default as kneeOnBelly } from './kneeOnBelly.js'
+export { default as sideControl } from './sideControl.js'
 export { default as fullMount } from './fullMount.js'
+export { default as backControl } from './backControl.js'
+export { default as turtle } from './turtle.js'

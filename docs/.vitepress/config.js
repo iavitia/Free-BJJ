@@ -3,7 +3,10 @@ import {
   openGuard,
   closedGuard,
   kneeOnBelly,
+  sideControl,
   fullMount,
+  backControl,
+  turtle,
 } from './paths/index.js'
 
 // https://vitepress.dev/reference/site-config
@@ -30,7 +33,10 @@ export default defineConfig({
       openGuard,
       closedGuard,
       kneeOnBelly,
+      sideControl,
       fullMount,
+      backControl,
+      turtle,
     ],
 
     socialLinks: [
